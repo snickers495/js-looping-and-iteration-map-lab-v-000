@@ -14,7 +14,7 @@ function nameToAttributes(arr) {
   return newArr;
 }
 function attributesToPhrase(arr) {
-  arr.map(function(word) {
-    
+  return arr.map(function(word) {
+
   });
 }
