@@ -15,6 +15,6 @@ function nameToAttributes(arr) {
 }
 function attributesToPhrase(arr) {
   return arr.map(function(word) {
-
+    return word.name + " is from " + word.hometown;
   });
 }
