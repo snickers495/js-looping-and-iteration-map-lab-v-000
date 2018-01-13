@@ -4,4 +4,6 @@ function lowerCaseDrivers(arr) {
   return arr.map(word => word.toLowerCase())
 }
 
-function nameToAttributes() {}
+function nameToAttributes(arr) {
+  newArr = arr.map(word => word.split(" "))
+}
