@@ -10,6 +10,6 @@ function nameToAttributes(arr) {
     const first = {firstName: newWord[0]};
     const last = {lastName: newWord[1]};
     return Object.assign(first, last);
-  })
+  });
   return newArr;
 }
